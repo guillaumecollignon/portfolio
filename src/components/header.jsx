@@ -1,12 +1,13 @@
 import { Link } from 'react-router-dom'
 import "../styles/header.scss"
+import guigui from "../assets/guigui.png"
 
 function Header() {
   return (
     <header className='header'>
       <Link to="/" className='headerLeft'>
         <div className='headerPic'>
-          <img src="../assets/guigui.png" alt='eafefaf'></img>
+          <img src={guigui} alt=""></img>
         </div>
         <div className='headerName'>
           <h1>Guillaume Collignon</h1>
