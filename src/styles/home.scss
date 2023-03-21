@@ -1,0 +1,50 @@
+.home {
+    margin-inline: 0;
+}
+
+.skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 4rem;
+    color: #6BBED4;
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    transition: all 50ms;
+    font-size: 1rem;
+
+    .skillName {
+        margin-top: 1rem;
+
+    }
+
+    &:hover {
+        scale: 1.2;
+        transition: all 50ms;
+        opacity: 1;
+    }
+}
+
+i {
+    color: #6BBED4;
+    font-size: 4rem;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .skills {
+        flex-direction: column;
+        justify-content: center;
+
+        .skill {
+            flex-direction: row;
+        }
+    }
+
+}
