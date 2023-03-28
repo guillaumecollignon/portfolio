@@ -33,6 +33,10 @@ function Cv() {
               <span className="skillName">HTML 5</span>
             </div>
             <div className="cvSkill">
+              <i class="fa-brands fa-php"></i>
+              <span className="skillName">PHP</span>
+            </div>
+            <div className="cvSkill">
               <i className="fa-brands fa-css3-alt"></i>
               <span className="skillName">CSS 3</span>
             </div>
@@ -41,12 +45,12 @@ function Cv() {
               <span className="skillName">SASS</span>
             </div>
             <div className="cvSkill">
-              <i className="fa-brands fa-react"></i>
-              <span className="skillName">REACT</span>
-            </div>
-            <div className="cvSkill">
               <i className="fa-brands fa-square-js"></i>
               <span className="skillName">JavaScript</span>
+            </div>
+            <div className="cvSkill">
+              <i className="fa-brands fa-react"></i>
+              <span className="skillName">REACT</span>
             </div>
             <div className="cvSkill">
               <i className="fa-brands fa-node-js"></i>

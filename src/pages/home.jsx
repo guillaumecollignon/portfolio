@@ -9,6 +9,10 @@ function Home() {
           <span className="skillName">HTML 5</span>
         </div>
         <div className="skill">
+          <i class="fa-brands fa-php"></i>
+          <span className="skillName">PHP</span>
+        </div>
+        <div className="skill">
           <i className="fa-brands fa-css3-alt"></i>
           <span className="skillName">CSS 3</span>
         </div>
